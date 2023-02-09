@@ -2,7 +2,8 @@ import UserPeofile from './UserProfile'
 import TaglineProfile from './TaglineProfile'
 import AboutMeProfile from './AboutMeProfile'
 import SkillsProfile from './SkillsProfile'
-import CertificateProfile from './SkillsProfile'
+import CertificateProfile from './CertificateProfile'
+import WorkExperienceProfile from './WorkExperienceProfile'
 
 
 const Profile = () => {
@@ -13,6 +14,7 @@ const Profile = () => {
             <AboutMeProfile/>
             <SkillsProfile/>
             <CertificateProfile/>
+            <WorkExperienceProfile/>
         </div>
     )
 }

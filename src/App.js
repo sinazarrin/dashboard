@@ -1,8 +1,9 @@
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
-    <div className="bg-slate-600">
-      <p className="red-500">hello</p>
+    <div className="App">
+      <Dashboard/>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import UserPeofile from './UserProfile'
 import TaglineProfile from './TaglineProfile'
 import AboutMeProfile from './AboutMeProfile'
+import SkillsProfile from './SkillsProfile'
 
 
 const Profile = () => {
@@ -9,6 +10,7 @@ const Profile = () => {
             <UserPeofile/>
             <TaglineProfile/>
             <AboutMeProfile/>
+            <SkillsProfile/>
         </div>
     )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../components/Header'
 import Sidebar from '../../components/Sidebar'
 import Profile from '../../components/Profile'
+import MyWorks from '../../components/MyWorks'
 
 const Dashboard = () => {
   return (
@@ -10,6 +11,7 @@ const Dashboard = () => {
         <div className='flex h-full'>
             <Sidebar/>
             <Profile/>
+            <MyWorks/>
         </div>
     </>
   )

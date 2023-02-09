@@ -1,5 +1,5 @@
 import { useState } from "react"
-import AllWorks from "./AllWorks"
+import AllWorks from "./AllWork"
 
 const MyWorks = () => {
 

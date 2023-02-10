@@ -2,7 +2,7 @@ import React from 'react'
 
 const CertificateProfile = () => {
     return (
-        <div id="certificate" className='w-full flex flex-col justify-between items-center text-[#adb3c4] mt-5'>
+        <div id="certificate" className='w-full flex flex-col justify-between items-center text-[#adb3c4] mt-3'>
             <div className='flex justify-between items-center p-2 text-sm w-full'>
                 <span className=''>گواهینامه‌و‌مدارک‌تحصیلی</span>
                 <div className='w-full h-[1px] bg-[#adb3c4]'></div>

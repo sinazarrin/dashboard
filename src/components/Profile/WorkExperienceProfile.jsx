@@ -2,7 +2,7 @@ import React from 'react'
 
 const workExperienceProfile = () => {
     return (
-        <div><div id="work-experience" className='w-full flex flex-col items-center text-[#adb3c4] mt-5 pb-3'>
+        <div><div id="work-experience" className='w-full flex flex-col items-center text-[#adb3c4] mt-3 pb-3'>
             <div className='flex justify-between items-center p-2 text-sm w-full'>
                 <span className=''>سوابق‌تحصیلی</span>
                 <div className='w-full h-[1px] bg-[#adb3c4]'></div>

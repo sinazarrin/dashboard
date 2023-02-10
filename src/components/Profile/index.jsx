@@ -8,8 +8,8 @@ import WorkExperienceProfile from './WorkExperienceProfile'
 
 const Profile = () => {
     return (
-        <div className='mt-4 bg-white rounded-xl mx-5 p-2 dark:bg-gray-800 dark:border-gray-400'>
-            <div className='md:w-[250px] w-full'>
+        <div className=' mt-3 bg-white rounded-xl mx-5 p-2 dark:bg-gray-800 dark:border-gray-400'>
+            <div className='md:w-[300px] w-full'>
                 <UserPeofile />
                 <TaglineProfile />
                 <AboutMeProfile />

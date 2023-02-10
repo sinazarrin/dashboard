@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMeProfile = () => {
     return (
-        <div id="about-me" className='w-full flex flex-col items-center justify-between text-[#adb3c4] mt-5'>
+        <div id="about-me" className='w-full flex flex-col items-center justify-between text-[#adb3c4] mt-3'>
             <div className='flex justify-between items-center p-2 text-sm w-full'>
                 <span className=''>درباره‌من</span>
                 <div className='w-full h-[1px] bg-[#adb3c4]'></div>

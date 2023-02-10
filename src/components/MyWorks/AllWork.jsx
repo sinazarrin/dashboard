@@ -5,9 +5,9 @@ const AllWorks = ({works}) => {
     
 
     return (
-        <>
+        <div className='overflow-x-scroll'>
             {works.map(subject => (
-                <div className='bg-white rounded-lg p-3 mt-3 dark:bg-gray-800 dark:text-gray-400'>
+                <div className='bg-white rounded-lg p-3 mt-3 dark:bg-gray-800 dark:text-gray-400 w-[1000px] '>
                     <div className='flex items-center'>
                         <p className='text-blue-500 dark:text-[#adb3c4]'>{subject.title}</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-4 h-4 mr-2 text-[#8A94AB]" viewBox="0 0 16 16">
@@ -31,7 +31,7 @@ const AllWorks = ({works}) => {
                 </div>
 
             ))}
-        </>
+        </div>
     )
 }
 

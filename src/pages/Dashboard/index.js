@@ -7,12 +7,14 @@ import MyWorks from '../../components/MyWorks'
 const Dashboard = () => {
   return (
     <>
-        <Header/>
-        <div className='flex h-full'>
-            <Sidebar/>
-            <Profile/>
-            <MyWorks/>
+      <Header />
+      <div className='md:flex h-full w-full'>
+        <div className='flex'>
+          <Sidebar />
+          <Profile />
         </div>
+        <MyWorks />
+      </div>
     </>
   )
 }

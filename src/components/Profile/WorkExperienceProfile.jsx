@@ -2,7 +2,7 @@ import React from 'react'
 
 const workExperienceProfile = () => {
     return (
-        <div><div id="work-experience" className='w-full flex flex-col items-center text-[#adb3c4] mt-5'>
+        <div><div id="work-experience" className='w-full flex flex-col items-center text-[#adb3c4] mt-5 pb-3'>
             <div className='flex justify-between items-center p-2 text-sm w-full'>
                 <span className=''>سوابق‌تحصیلی</span>
                 <div className='w-full h-[1px] bg-[#adb3c4]'></div>
@@ -15,7 +15,7 @@ const workExperienceProfile = () => {
             </div>
 
             <div className='mt-3 flex text-gray-600 text-sm'>
-                <ul className='list-disc dark:text-[#adb3c4]'>
+                <ul className='list-disc dark:text-[#adb3c4] text-[14px] sm:text-sm text-[12px] sm:text-sm text-[11px]'>
                     <li>طراح تجربه کاربری - شرکت همراه</li>
                     <li>طراح گرافیکی - شرکت آینده سازان</li>
                 </ul>

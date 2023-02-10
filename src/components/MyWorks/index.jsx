@@ -4,22 +4,7 @@ import AllWorks from "./AllWork"
 const MyWorks = () => {
 
   const [works, setWorks] = useState([
-    {
-      id: 1,
-      title: 'طراحی و گرافیک',
-      posts: [
-        {
-          id: 1,
-          image: './assets/images/Design-and-graphics2.jpg',
-          caption: 'طراحی سایت اخبار بازی'
-        },
-        {
-          id: 2,
-          image: './assets/images/Design-and-graphics1.jpg',
-          caption: 'طراحی سایت ورزشی'
-        },
-      ]
-    },
+    
     {
       id: 2,
       title: 'گویندگی و خوانندگی',
@@ -65,8 +50,8 @@ const MyWorks = () => {
   ])
 
   return (
-    <div className='bg-[#F3F6FF] dark:bg-gray-900 p-5 w-4/5'>
-      <div className='flex justify-between text-gray-500 mb-3 dark:text-[#adb3c4] '>
+    <div className='bg-[#F3F6FF] dark:bg-gray-900 p-5 overflow-x-scroll w-[1000px]'>
+      <div className='flex justify-between text-gray-500 mb-3 dark:text-[#adb3c4] w-full '>
         <span>آثار من:</span>
         <div>
           <span>نوع نمایش:</span>
@@ -74,7 +59,6 @@ const MyWorks = () => {
         </div>
       </div>
       <AllWorks works={works} key={works.id} />
-
     </div>
   )
 }

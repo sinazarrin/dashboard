@@ -13,7 +13,7 @@ const AboutMeProfile = () => {
                     </svg>
                 </div>
             </div>
-            <p className='px-12 text-sm text-gray-600 dark:text-[#adb3c4]'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.</p>
+            <p className='px-5 text-sm text-gray-600 dark:text-[#adb3c4] sm:text-sm text-[12px]'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.</p>
         </div>
     )
 }

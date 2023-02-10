@@ -13,10 +13,10 @@ const SkillsProfile = () => {
                     </svg>
                 </div>
             </div>
-            <div className='mt-3 flex text-gray-600 text-sm'>
-                <div className='bg-[#F3F6FF] rounded-lg ml-3 p-2'>تجربه کاربری</div>
-                <div className='bg-[#F3F6FF] rounded-lg ml-3 p-2'>طراحی سایت</div>
-                <div className='bg-[#F3F6FF] rounded-lg ml-3 p-2'>گرافیک</div>
+            <div className='mt-3 flex justify-center flex-wrap text-gray-600 text-sm sm:text-sm text-[11px]'>
+                <div className='bg-[#F3F6FF] rounded-lg ml-3 sm:p-2 p-1 m-1'>تجربه کاربری</div>
+                <div className='bg-[#F3F6FF] rounded-lg ml-3 sm:p-2 p-1 m-1'>طراحی سایت</div>
+                <div className='bg-[#F3F6FF] rounded-lg ml-3 sm:p-2 p-1 m-1'>گرافیک</div>
             </div>
         </div>
     )

@@ -14,7 +14,7 @@ const CertificateProfile = () => {
                 </div>
             </div>
             <div className='mt-3 flex text-gray-600 text-sm'>
-                <ul className='list-disc dark:text-[#adb3c4]'>
+                <ul className='list-disc dark:text-[#adb3c4] sm:text-sm text-[12px]'>
                     <li>کارشناسی کامپیوتر، دانشگاه تبریز</li>
                     <li>مبانی طراحی، udemy</li>
                 </ul>

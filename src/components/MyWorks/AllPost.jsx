@@ -8,7 +8,7 @@ const AllPosts = ({subject}) => {
                     <div className='w-full h-36 '>
                         <img src={post.image} alt="" className='w-full h-36 object-cover' />
                         <div className='p-2'>
-                            <p className='text-sm text-gray-500'>{post.caption}</p>
+                            <p className='text-sm text-gray-500 dark:text-[#adb3c4]'>{post.caption}</p>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 export const works = [
-    [
+    
 
         {
             id: 2,
@@ -42,4 +42,3 @@ export const works = [
             ]
         },
     ]
-]

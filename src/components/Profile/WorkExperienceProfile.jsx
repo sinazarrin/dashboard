@@ -15,7 +15,7 @@ const workExperienceProfile = () => {
             </div>
 
             <div className='mt-3 flex text-gray-600 text-sm'>
-                <ul className='list-disc dark:text-[#adb3c4] text-[14px] sm:text-sm text-[12px] sm:text-sm text-[11px]'>
+                <ul className='list-disc dark:text-[#adb3c4] sm:text-sm text-[12px]'>
                     <li>طراح تجربه کاربری - شرکت همراه</li>
                     <li>طراح گرافیکی - شرکت آینده سازان</li>
                 </ul>

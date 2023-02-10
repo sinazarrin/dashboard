@@ -3,7 +3,7 @@ import React from 'react'
 const SkillsProfile = () => {
     return (
         <div id="skills" className='w-full flex flex-col items-center justify-between text-[#adb3c4] mt-3'>
-            <div className='flex justify-between items-center p-2 text-sm w-full'>
+            <div className='flex justify-between items-center p-2 text-sm w-full sm:text-sm text-[10px]'>
                 <span className=''>مهارت‌ها</span>
                 <div className='w-full h-[1px] bg-[#adb3c4]'></div>
                 <div className='flex justify-center mr-2 '>
@@ -13,7 +13,7 @@ const SkillsProfile = () => {
                     </svg>
                 </div>
             </div>
-            <div className='mt-3 flex justify-center flex-wrap text-gray-600 text-sm sm:text-sm text-[11px]'>
+            <div className='mt-3 flex justify-center flex-wrap text-gray-600 text-sm sm:text-sm text-[10px]'>
                 <div className='bg-[#F3F6FF] dark:bg-gray-600 dark:text-white rounded-lg ml-3 sm:p-2 p-1 m-1'>تجربه کاربری</div>
                 <div className='bg-[#F3F6FF] dark:bg-gray-600 dark:text-white rounded-lg ml-3 sm:p-2 p-1 m-1'>طراحی سایت</div>
                 <div className='bg-[#F3F6FF] dark:bg-gray-600 dark:text-white rounded-lg ml-3 sm:p-2 p-1 m-1'>گرافیک</div>

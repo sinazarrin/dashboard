@@ -4,7 +4,7 @@ const AllPosts = ({ subject }) => {
     return (
         <>
             {subject.posts.map(post => (
-                <div className='mt-4 w-56 h-56 rounded-lg overflow-hidden ml-4 cursor-pointer'>
+                <div className='bg-white dark:bg-gray-800 mt-4 w-56 h-56 rounded-lg overflow-hidden ml-4 cursor-pointer'>
                     <div className='w-full h-36 relative'>
                         <img src={post.image} alt="" className='w-full h-36 object-cover' />
                         <div className='p-2'>
